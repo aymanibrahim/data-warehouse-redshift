@@ -208,7 +208,14 @@ log_data/2018/11/2018-11-13-events.json
 - reads and processes files from S3
 - loads data into the tables.
 
+## dwh.cfg
+- configuration file for Redshift, IAM and S3
+
 # How to run the scripts:
+
+- launch Redshift cluster
+
+- setup dwh.cfg file
 
 - open terminal
 
@@ -223,3 +230,8 @@ log_data/2018/11/2018-11-13-events.json
 >    ``
     python etl.py
     ``
+# Data Engineering projects
+
+- ## [Data Modeling with Postgres](https://github.com/aymanibrahim/data-modeling-postgres)
+- ## [Data Modeling with Cassandra](https://github.com/aymanibrahim/data-modeling-cassandra)    
+- ## [Data Warehouse with Redshift](https://github.com/aymanibrahim/data-warehouse-redshift)    
