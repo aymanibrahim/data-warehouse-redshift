@@ -16,13 +16,15 @@ Data for song and user activities reside in S3 as JSON files:
 - contains metadata about a song and the artist of that song. 
 - files are partitioned by the first three letters of each song's track ID. 
 - example of file paths to two files in song dataset.
->```
+
+```
 song_data/A/B/C/TRABCEI128F424C983.json
 song_data/A/A/B/TRAABJL12903CDCF1A.json
 ```
 
 - example of single song file, TRAABJL12903CDCF1A.json:
->```
+
+```
 {"num_songs": 1, 
 "artist_id": "ARJIE2Y1187B994AB7", 
 "artist_latitude": null, 
@@ -40,13 +42,14 @@ song_data/A/A/B/TRAABJL12903CDCF1A.json
 - these simulate activity logs from a music streaming app based on specified configurations.
 - log files are partitioned by year and month. 
 - example, here are filepaths to two files in log dataset.
->```
+
+```
 log_data/2018/11/2018-11-12-events.json
 log_data/2018/11/2018-11-13-events.json
 ```
 - example of single log file, 2018-11-12-events.json:
 
->```
+```
 {"artist":null,
 "auth":"Logged In",
 "firstName":"Celeste",
